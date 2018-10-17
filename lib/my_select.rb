@@ -6,5 +6,5 @@ while i < selection.length
    i += 1
   end
 return newArray
-end
+
 end
