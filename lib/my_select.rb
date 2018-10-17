@@ -4,7 +4,7 @@ newArray = []
 while i < selection.length
   if yield selection[i] == true
   newArray.push(selection[i])
- end
+  end
   i += 1
   end
 return newArray
