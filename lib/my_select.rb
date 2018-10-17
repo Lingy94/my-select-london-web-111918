@@ -5,6 +5,7 @@ while i < selection.length
     if selection[i] == true
     newArray.push(yield selection[i])
    i += 1
+ end
   end
 return newArray
 
