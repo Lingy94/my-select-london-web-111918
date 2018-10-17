@@ -2,7 +2,7 @@ def my_select(selection)
 i = 0
 newArray = []
 while i < selection.length
-  yield selection[i]
+  if (yield selection[i]) == true
   newArray.push(selection[i]) #returns [1..5]
   i += 1
   end
