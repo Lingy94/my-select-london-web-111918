@@ -3,7 +3,7 @@ i = 0
 newArray = []
 while i < selection.length
   yield selection[i]
-  newArray.push(selection[i]) #returns [1..5]
+  newArray.push(yield selection[i]) #returns [1..5]
   i += 1
   end
 return newArray
