@@ -4,8 +4,8 @@ newArray = []
 while i < selection.length
     if selection[i] == true
     newArray.push(yield selection[i])
+    end
    i += 1
- end
   end
 return newArray
 
